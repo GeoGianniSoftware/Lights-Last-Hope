@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20731a121db89445a516d1629c20ce1, type: 3}
+  m_Name: Arrow
+  m_EditorClassIdentifier: 
+  TYPE: 0
+  COMPLEX: 0
+  COST: 2.5
+  COOLDOWN: 2
+  CASTER: {fileID: 0}
+  damage:
+    amount: 1
+    respawn: 0
+    source: {fileID: 0}
+    position: {x: 0, y: 0, z: 0}
+    knockBackForce: 50
+  projectilePrefab: {fileID: 8245962199887063868, guid: ae5e674ad63e1a04d824a1335048604c, type: 3}
+  projectileStrength: 45
+  gravityMod: 0.5
+  projectileSticks: 1
+  lifeTime: 10
+  speedMod: 0
+  effectPrefab: {fileID: 0}
+  effectLifetime: 0

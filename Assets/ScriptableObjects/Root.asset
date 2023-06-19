@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20731a121db89445a516d1629c20ce1, type: 3}
+  m_Name: Root
+  m_EditorClassIdentifier: 
+  TYPE: 1
+  COMPLEX: 1
+  COST: 10
+  COOLDOWN: 10
+  CASTER: {fileID: 0}
+  projectilePrefab: {fileID: 0}
+  projectileStrength: 0
+  speedMod: 0
+  effectPrefab: {fileID: 3150795762470359308, guid: 1c7b7125fba073b4e974ff13af33794c, type: 3}
+  effectLifetime: 5
